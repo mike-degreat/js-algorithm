@@ -1,4 +1,4 @@
-/*//Challenge 1:
+//Challenge 1:
 function palindrome(str) {
     // Step 1: Remove non-alphanumeric characters and convert to lowercase
     const modifiedStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
@@ -24,7 +24,7 @@ console.log(palindrome("My age is 0, 0 si ega ym.")); // true
 console.log(palindrome("1 eye for of 1 eye.")); // false
 console.log(palindrome("0_0 (: /-\ :) 0-0")); // true
 console.log(palindrome("five|\\_/|four")); // false
-*/
+
 
 //Challenge 2:
 function convertToRoman(num) {
@@ -75,7 +75,8 @@ function convertToRoman(num) {
   Input: 501 | Result: DI
   Input: 649 | Result: DCXLIX
   Input: 798 | Result: DCCXCVIII
-  Input: 891 | Result: DCCCXCI*/ 
+  Input: 891 | Result: DCCCXCI
+  */ 
   
   for (const num of testCases) {
     const result = convertToRoman(num);
